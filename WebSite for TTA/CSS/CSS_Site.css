@@ -1,0 +1,212 @@
+body {
+    margin: 0%;
+}
+
+.Navbar {
+    position: fixed;
+    top: 0;
+    overflow: hidden;
+    background-color: black;
+    width: 100%;
+    z-index: 1;
+}
+
+.Navbar a {
+    float: left;
+    display: block;
+    color: whitesmoke;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    text-align: center;
+}
+
+.Navbar a:hover {
+     background-color: gold;
+     color: black;
+     font-weight: bold;
+}
+
+.Navbar a.active {
+    background-color: rgb(250, 213, 7);
+}
+
+#Typing_Video {
+    position: fixed;
+    right: 0;
+    bottom: 0;
+    min-width: 100%;
+    z-index: -1;
+}
+
+.Video_Text {
+    background: rgba(0,0,0,0.5);
+    color: gold;
+    padding: 20px;
+    width: 80%;
+    margin: 23%;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+.Column_2 {
+    padding: 10%;
+    float: left;
+    width: 50%;
+    padding-top: 2%;
+    height: 400px;
+}
+
+.Column_1 {
+    padding: 10%;
+    float: left;
+    width: 50%;
+    padding-top: 3%;
+    height: 400px;
+    background-color: rgba(0,0,0,0.5);
+}
+
+.Column_3 {
+	float: left;
+	width: 50%;
+	padding: 10px;
+	padding-top: 3.5%;
+	height: 450px;
+	background-color: rgba(0,0,0,0.5));
+}
+
+.Row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+.about {
+    color: gold;
+}
+
+.p {
+    color: gold;
+}
+
+h1 {
+    text-transform: uppercase;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    text-align: center;
+    margin-top: 3%;
+    padding-right: 20px;
+    padding-left: 20px;
+    color: gold;
+}
+
+p {
+	font-family: Perpetua, Rockwell Extra Bold;
+	text-align: justify;
+	letter-spacing: 1px;
+	font-size: 20px;
+	padding-left: 20px;
+    padding-right: 20px;
+    color: gold;
+}
+
+center {
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    letter-spacing: 1px;
+    font-size: 20px;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+a {
+    color: lightseagreen;
+}
+
+q {
+    font-style: italic;
+    font-weight: bold;
+}
+
+img {
+    filter: grayscale(75%);
+    border-radius: 8px;
+    max-width: 100%;
+    height: 340px;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+}
+
+input[type=text] { 
+	width: 100%;
+	padding: 12px;
+    border: 3px solid gold; 
+    border-radius: 4px; 
+    box-sizing: border-box;
+    margin-top: 6px;
+    margin-bottom: 16px;
+    resize: vertical; 
+    font-family: Perpetua, Rockwell Extra Bold; 
+}
+
+input[type=submit] { 
+	background-color: black;
+	color: gold;
+	font-weight: bold;
+	padding: 12px 20px;
+	border: none;
+	border-radius: 4px;
+	cursor: pointer;
+	display: block;
+	margin-left: auto;
+	margin-right: auto; 
+	font-family: Perpetua, Rockwell Extra Bold;
+}
+
+input[type=submit]:hover {
+	background-color: white; 
+	color: gold; 
+	font-weight: bold; 
+	transform: scale(1.5); 
+	transition: transform 1.5s; 
+}
+
+form { 
+	border-radius: 5px; 
+	background-color: rgba(0,0,0,0.5);
+	padding: 2px;
+	font-family: "Trebuchet MS", Optima;
+}
+
+
+center:hover {
+	transition: transform 2s;
+	transform: scale(1.1);
+}
+
+p:hover {
+	color: #00004d;	
+    transition: transform 1s;
+	transform: scale(1.01);
+}
+
+h1:hover {
+	color: gold;
+	font-weight: normal;
+}
+
+img:hover {
+	filter: grayscale(5%); 
+    transition: transform 1s;
+	transform: scale(1.1);
+}
+
+
+footer {
+	padding: 5px;
+    background-color:rgba(0,0,0,0.5);
+    color: gold;
+}
